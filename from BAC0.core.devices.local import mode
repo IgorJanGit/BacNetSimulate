@@ -1,6 +1,1 @@
-from BAC0.core.devices.local import models
-
-analog_input = models.analog_input
-analog_output = models.analog_output
-binary_output = models.binary_output
-binary_input = models.binary_input
+from BAC0.core.devices.local import models  # ObjectFactory is erroring out with models
